@@ -1,0 +1,15 @@
+.header h1
+{
+    text-align: center;
+    padding-top: 20px !important;
+}
+
+.listContents table
+{
+    border: solid black;
+}
+
+.listContents tr
+{
+    border-bottom: solid black;
+}
