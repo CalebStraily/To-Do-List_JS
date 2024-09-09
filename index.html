@@ -25,28 +25,24 @@
     <main>
         <div class="container">
             <div class="row">
-                <div class="col-4">
-                    <button id="addTaskRow">Add Row</button>
-                    <button id="removeTaskRow">Remove Row</button>
+                <div class="col-xl-2 d-none d-xl-block"></div>
+                <div class="col-12 col-xl-8 listContents d-flex justify-content-center">
+                    <table class="w-100" id="taskList">
+                        <tr>
+                            <th>
+                                <h2>Task List</h2>
+                            </th>
+                        </tr>
+                        <tr id="inputRow">
+                            <th>
+                                <input id="taskUserInput" type="text" placeholder="Enter New Task">
+                                <button id="addTaskRow">Add Task</button>
+                                <button id="removeTaskRow">Remove Task</button>
+                            </th>
+                        </tr>
+                    </table>
                 </div>
-                <div class="col-4">
-                    <div class="container listContents">
-                        <div class="row">
-                            <table id="taskList">
-                                <tr>
-                                    <th>Task List</th>
-                                </tr>
-                                <tr>
-                                    <th>
-                                        <input type="checkbox">
-                                        <input type="text" placeholder="Insert Task Here">
-                                    </th>
-                                </tr>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4"></div>
+                <div class="col-xl-2 d-none d-xl-block"></div>
             </div>
         </div>
     </main>

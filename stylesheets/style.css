@@ -1,7 +1,18 @@
+body
+{
+    background-color: rgb(216, 216, 137) !important;
+}
+
 .header h1
 {
     text-align: center;
     padding-top: 20px !important;
+}
+
+.listContents
+{
+    padding-top: 30px;
+    text-align: center;
 }
 
 .listContents table
@@ -12,4 +23,30 @@
 .listContents tr
 {
     border-bottom: solid black;
+}
+
+.taskValue
+{
+    all: unset;
+    font-size: 30px;
+}
+
+.check-box-crossout
+{
+    all: unset;
+    font-size: 30px;
+    text-decoration: line-through;
+    color: gray;
+}
+
+.header-crossout
+{
+    text-decoration: line-through;
+    color: gray;
+}
+
+.checkBox
+{
+    transform: scale(1.5);
+    margin: 10px;
 }
